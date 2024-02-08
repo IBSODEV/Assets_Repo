@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+/* Html ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+html {
+  font-family: "Arial" !important;
+  background: rgb(255, 255, 255);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  width: 100% !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+/* Body ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+body {
+  font-family: "Arial" !important;
+  background-color: transparent;
+}
+
+/* Controls ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+
+.SingleDatePickerInput {
+  border: 0px;
+}
+
+.DateInput_input, .DateInput_input_1 {
+   color: inherit !important;
+   text-align: center;
+   font-size: inherit ! important;
+   Height: 25px !important;
+   Width: 100% !important;
+   border: 0;
+}
+
+/* Dash Dropdown ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+.VirtualizedSelectOption {
+  white-space: nowrap;
+}
+
+/* Dash Table ––––––––––––––––––––––––––––––––––––––––––––––––––*/
+tr:hover {
+  background-color: rgb(41, 56, 55) !important;
+}
+
+/* Img –––––––––––––––––––––––––––––––––––––––––––––––––– */
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+}
+
+/* Typography –––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2 {
+  font-family: "Arial" !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: central;
+  text-align: center;
+  font-weight: 350;
+  color: rgb(0, 63, 102);
+}
+
+h3, h4, h5, h6 {
+  font-family: "Arial" !important;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  vertical-align: central;
+  text-align: center;
+  font-weight: 350;
+  color: rgb(251, 251, 252);
+}
+
+p {
+  font-weight: 300;
+}
+
+.dash-table-container .dropdown {
+  position: static;
+}
+.dash-spreadsheet .Select-value-label {
+  padding-right: 20px;
+}
+
+.Select-menu-outer {
+  display : block !important;
+  overflow: hidden;
+  width: 150px;
+}
